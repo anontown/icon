@@ -1,0 +1,21 @@
+{
+  "name": "icon",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "svg2png icon.svg --width=$SIZE --height=$SIZE --output=dist/$SIZE.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anontown/icon.git"
+  },
+  "author": "kgtkr",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/anontown/icon/issues"
+  },
+  "homepage": "https://github.com/anontown/icon#readme",
+  "devDependencies": {
+    "svg2png": "^4.1.1"
+  }
+}
