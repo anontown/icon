@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "svg2png icon.svg --width=$SIZE --height=$SIZE --output=dist/$SIZE.png"
+    "build": "node build.js",
+    "clean": "rm *.png"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,8 @@
   },
   "homepage": "https://github.com/anontown/icon#readme",
   "devDependencies": {
+    "pn": "^1.1.0",
     "svg2png": "^4.1.1"
-  }
+  },
+  "dependencies": {}
 }
