@@ -35,7 +35,7 @@
       </g>
     </mask>
   </defs>
-  <g fill="#0f0" mask="url(#mask)">
+  <g fill="#fff" mask="url(#mask)">
     <path d="
       M 64 0
       l -64 64
